@@ -1,0 +1,15 @@
+import java.io.*
+import java.util.Scanner;
+public class check{
+public static void main(String[]args){
+Scanner myobj = new Scanner(System.in);
+System.out.println("Enter any number");
+int num=myobj.nextInt();
+if(num % 2==0){
+System.out.println("Number is even");
+}
+else{
+System.out.println("Number is odd");
+}
+}
+}
