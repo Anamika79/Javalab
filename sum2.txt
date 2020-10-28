@@ -1,0 +1,17 @@
+import java.io.*
+import java.util.Scanner;
+public class test2 {
+
+	public static void main(String[] args) {
+		int i, total=0;
+		Scanner myobj = new Scanner(System.in);
+		System.out.println("Give the count");
+		int count = myobj.nextInt();
+		myobj.close();
+		for(i= 1;i<=count;i++) {
+			total = i + total;
+		}
+		System.out.println("Sum of numbers ="+ total);
+	}
+
+}
