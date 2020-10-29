@@ -1,0 +1,18 @@
+import java.io.*
+import java.util.Scanner;
+public class test2 {
+
+	public static void main(String[] args) {
+		int i,n1=0,n2=1,temp=0;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the limit");
+		int limit = scan.nextInt();
+		System.out.println("The series is " + n1 +" "+ n2);
+		for(i=0;i<=limit-2;i++) {
+		temp=n1+n2;
+		System.out.println(temp);
+		n1=n2;
+		n2=temp;
+		}
+	}
+}
